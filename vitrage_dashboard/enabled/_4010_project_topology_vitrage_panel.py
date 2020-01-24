@@ -29,3 +29,11 @@ AUTO_DISCOVER_STATIC_FILES = True
 ADD_SCSS_FILES = [
     'dashboard/project/vitrage.scss',
 ]
+
+ADD_XSTATIC_MODULES = [('xstatic.pkg.lodash', ['lodash.js']),
+                       ('xstatic.pkg.graphlib', ['graphlib.core.js']),
+                       ('xstatic.pkg.dagre', ['dagre.core.js']),
+                       ('xstatic.pkg.dagre_d3', ['dagre-d3.core.js']),
+                       ('xstatic.pkg.moment', ['moment.js']),
+                       ('xstatic.pkg.moment_timezone', ['moment-timezone-with-data-2012-2022.js']),
+]
